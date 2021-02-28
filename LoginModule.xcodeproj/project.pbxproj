@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7004AABD25EC2E91000D55AA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7004AABC25EC2E91000D55AA /* main.storyboard */; };
+		7004AAC025EC2EF0000D55AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7004AABF25EC2EF0000D55AA /* MainViewController.swift */; };
 		70F7172B25EC2D2300AA18F1 /* LoginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F7172925EC2D2300AA18F1 /* LoginModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7004AABC25EC2E91000D55AA /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		7004AABF25EC2EF0000D55AA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		70F7172625EC2D2300AA18F1 /* LoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F7172925EC2D2300AA18F1 /* LoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModule.h; sourceTree = "<group>"; };
 		70F7172A25EC2D2300AA18F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 			children = (
 				70F7172925EC2D2300AA18F1 /* LoginModule.h */,
 				70F7172A25EC2D2300AA18F1 /* Info.plist */,
+				7004AABC25EC2E91000D55AA /* main.storyboard */,
+				7004AABF25EC2EF0000D55AA /* MainViewController.swift */,
 			);
 			path = LoginModule;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				TargetAttributes = {
 					70F7172525EC2D2300AA18F1 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -120,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7004AABD25EC2E91000D55AA /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7004AAC025EC2EF0000D55AA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 		70F7172F25EC2D2300AA18F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7QAVKC3WGP;
@@ -277,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ariemay.loginmodule.LoginModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +296,7 @@
 		70F7173025EC2D2300AA18F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7QAVKC3WGP;
