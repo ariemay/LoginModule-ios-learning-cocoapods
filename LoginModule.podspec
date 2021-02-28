@@ -8,11 +8,11 @@ s.summary = "Login Page."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Keegan Rush" => "keeganrush@gmail.com" }
+s.author = { "Arie May Wibowo" => "ariemayw@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
 s.homepage = "https://github.com/ariemay/LoginModule-ios-learning-cocoapods.git"
@@ -27,10 +27,10 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "LoginModule/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "LoginModule/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.2"
